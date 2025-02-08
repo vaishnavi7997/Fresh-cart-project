@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 40px;
+    font-family:cursive;
+}
+.nav-item{
+    padding-left: 2px;
+    font-size: larger;
+    text-align: start;
+}
+.nav-item:hover{
+    font-weight: bolder;
+    color: rgba(217, 102, 102, 0.888);
+}
+.form{
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.046);
+}
+.search{
+    height: 40px;
+    width: 35%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgba(0, 0, 255, 0.674);
+}
+.search:hover{
+    border: 2px solid rgba(0, 0, 255, 0.747);
+}
+.btn0{
+    height: 40px;
+    width: 10%;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.674);
+    color: white;
+    border-radius: 60px;
+    font-weight:400;
+}.btn0:hover{
+    background-color: rgba(0, 0, 255, 0.361);
+    color: black;
+}
+input::placeholder {
+    color: black;
+}
+
+.pic1 , .pic2 , .pic3{
+    margin: auto;
+    margin-top: 25px;
+    width: 85%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    object-fit: cover;
+}
+.pic1{
+    text-align: start;
+    font-size: larger;
+    padding: 70px;
+    justify-content:center;
+    background-image:  linear-gradient(to bottom , rgba(0, 0, 0, 0.558) , rgba(0, 0, 0, 0.146)), url(assets/banner.jpeg);
+}
+.pic1 button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: none;
+    font-style: italic;
+    border-radius: 10px;
+}
+.pic1 button:hover{
+    background-color: white;
+    color: black;
+}
+.pic2{
+    text-align: end;
+    padding: 70px;
+    font-size: larger;
+    justify-content: end;
+    background-image: linear-gradient(to bottom , rgba(0, 0, 0, 0.526) , rgba(0, 0, 0, 0.091)), url(assets/banner2.jpg);
+}
+.pic2 button{
+    background-color: rgb(10, 91, 142);
+    color: white;
+    padding: 5px;
+    border: none;
+    font-style: italic;
+    border-radius: 10px;
+}
+.pic2 button:hover{
+    background-color: rgba(0, 0, 255, 0.409);
+    color: white;
+}
+.pic3{
+    text-align: end;
+    justify-content: end;
+    padding: 70px;
+    background-image: linear-gradient(to bottom , rgba(0, 0, 0, 0.451) , rgba(0, 0, 0, 0.089)), url(assets/banner3.avif);
+}
+.pic3 button{
+    background-color: rgb(73, 17, 130);
+    color: white;
+    padding: 5px;
+    border: none;
+    font-style: italic;
+    border-radius: 10px;
+}
+.pic3 button:hover{
+    background-color: rgba(0, 0, 255, 0.409);
+    color: white;
+}
+.card-body img{
+   width: 90%; 
+}
+.offer-container {
+    background: url('assets/banner2.jpg') no-repeat center center/cover;
+    color: brown;
+    padding: 50px;
+    text-align: end;
+    border-radius: 10px;
+}
+.footer{
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
